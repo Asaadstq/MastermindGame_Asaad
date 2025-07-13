@@ -26,7 +26,7 @@ You can run the program from the terminal using the following arguments:
 ```bash
 dotnet run -- -c 0123 -t 5
 
--c: (Optional) Secret code to be guessed.
+-c: (Optional) Secret code to be guessed. If not provided a random code will be generated.
 -t: (Optional) Maximum number of attempts. Default is 10.
 ```
 
